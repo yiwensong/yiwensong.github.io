@@ -13,6 +13,9 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Scroll Nav -->
+    <link href="css/scrolling-nav.css">
+
     <!--Font Awesome?-->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
@@ -23,35 +26,33 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body role="document">
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-            data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">yiwen</a>
+          <a class="navbar-brand page-scroll" href="#page-top">yiwen</a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
+        <div id="navbar" class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li class="active"><a href="#about">About</a></li>
-            <li class="active"><a href="#education">Education</a></li>
-            <li class="active"><a href="#skill">Projects</a></li>
-            <li class="active"><a href="#hobby">Poker</a></li>
-            <li class="active"><a href="#experience">Resume</a></li>
-            <li class="active"><a href="#contact">Contact</a></li>
+            <li><a class="page-scroll" href="#page-top">Home</a></li>
+            <li><a class="page-scroll" href="#about">About</a></li>
+            <li><a class="page-scroll" href="#education">Education</a></li>
+            <li><a class="page-scroll" href="#skill">Projects</a></li>
+            <li><a class="page-scroll" href="#hobby">Poker</a></li>
+            <li><a class="page-scroll" href="#experience">Resume</a></li>
+            <li><a class="page-scroll" href="#contact">Contact</a></li>
             <!-- DROPDOWN IF NEEDED -->
           </ul>
         </div> <!--/.nav-collapse-->
       </div>
     </nav>
-
 
     <br />
     <br />
@@ -308,9 +309,53 @@
       </div> <!-- CONTAINER -->
     </section>
 
+    <section id="post">
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <div align="center">
+        <p> No copyrights are held for this page. Please steal this website for your own use. </p>
+        <p>
+          Design and Englishing by <a href="http://defdonthire.me" target="_blank">Yiwen Song</a>.
+          Photo by <a href="http://github.com/alexkang" target="_blank">Alex Kang</a>.
+          Majority of coding work done by <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>.
+        </p>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </section>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling script -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
   </body>
 </html>
