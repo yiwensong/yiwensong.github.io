@@ -18,7 +18,7 @@ body {
 }
 
 .image-bg-fluid-height {
-	background: url('http://yiwensong.com/img/me.jpg') no-repeat center center scroll;
+	background: url('../img/me.jpg') no-repeat center center scroll;
     background-size: auto 1100px;
     height: 1000px;
     padding: 0px 0px;
@@ -26,8 +26,8 @@ body {
 }
 
 .image-bg-fixed-height {
-	background: url('http://yiwensong.com/img/me.jpg') no-repeat center center scroll;
-    height: 1100px;
+	background: url('../img/poker.png') no-repeat center center scroll;
+    height: 100%;
 }
 
 .img-center {
@@ -38,6 +38,24 @@ body {
   margin-top: 700px;
 }
 
+.bigger-font {
+  font-size: 12pt;
+}
+
+.footer {
+  text-align: center;
+}
+
+.elevator-wrapper {
+  text-align: center;
+}
+
+.elevator {
+  text-align: center;
+  width: 80px;
+  cursor: pointer;
+  margin: auto;
+}
 /*
 section {
     padding: 75px 0;

@@ -69,19 +69,31 @@
     <section id="about">
       <br />
       <div class="container">
-        <div class="page-header">
+        <div class="page-header col-lg-8 col-lg-offset-2 col-md-1 col-md-offset-1">
           <h2> <em>completely</em> uninteresting </h2>
         </div>
-        <div class="well">
-          <p>
+        <div class="well col-lg-8 col-lg-offset-2 col-md-1 col-md-offset-1">
+          <p class="bigger-font">
             I am yiwen song and I am currently a senior at UC Berkeley studying Computer Science.
-            Despite my slightly above-average academic performance, I am actually fairly incompetent at doing
+            My favorite things about computer science include writing psuedocode, solving probability problems, and
+            fork-bombing my laptop.
+            Despite my passable academic performance, I am actually fairly incompetent at doing
             anything useful with my fancy buzzword knowledge of things like "algorithms", "cloud computing",
             and "internet of things".
           </p>
-          <p>
+          <p class="bigger-font">
+            Outside of academics, I am an avid online poker player and competitive video game player.
+            Some of my past video game <strike>addictions</strike> passions have included 
+            Starcraft II, League of Legends, Hearthstone, Rocket League, Osu! and Tetris.
+            I have also dabbled in the realm of Daily Fantasy Sports (DFS), and dream to be a winning DFS player
+            one day through hard work, massive luck, and <strong>big data</strong>.
+            If you're interested, feel free to check out my <a href="#hobby"> poker section </a>.
+          </p>
+          <p class="bigger-font">
             One day I aspire to be a useful contributing member of society, whether or not it is through
             my clumsy and ineffective use of technology.
+            If you are able to or want to contribute to my dreams and aspirations,
+            please <a href="#contact"> contact me </a>!
           </p>
         </div>
       </div> <!-- Container -->
@@ -91,10 +103,10 @@
     <section id="education">
       <br />
       <div class="container">
-        <div class="page-header">
+        <div class="page-header col-lg-8 col-lg-offset-2 col-md-1 col-md-offset-1">
           <h2> <em>undoubtably</em> uneducated </h2>
         </div>
-        <div class="well">
+        <div class="well col-lg-8 col-lg-offset-2 col-md-1 col-md-offset-1">
           <h3> Berkeley </h3>
           <h4> Computer Science, 2016 </h4>
           <p> Major GPA: 3.75 </p>
@@ -107,10 +119,10 @@
     <section id="skill">
       <br />
       <div class="container">
-        <div class="page-header">
+        <div class="page-header col-lg-8 col-lg-offset-2 col-md-1 col-md-offset-1">
           <h2> <em>objectively</em> unskilled </h2>
         </div>
-        <div class="well">
+        <div class="well col-lg-8 col-lg-offset-2 col-md-1 col-md-offset-1">
           <h3>
             SporkList
             <a href="http://sporklist.com/" target="_blank" style="text-decoration:none">
@@ -226,10 +238,10 @@
     <section id="hobby">
       <br />
       <div class="container">
-        <div class="page-header">
+        <div class="page-header col-lg-8 col-lg-offset-2 col-md-1 col-md-offset-1">
           <h2> <em>certified</em> degenerate </h2>
         </div>
-        <div class="well">
+        <div class="well col-lg-8 col-lg-offset-2 col-md-1 col-md-offset-1">
           <p>
             In my spare time (I have a lot) I play poker.
             Unfortunately my computer crashed so I lost a lot of data, but
@@ -238,7 +250,10 @@
             No Limit Hold'em, and my stats are VP 30 / PR 22 / 3B 8, which basically
             means I'm a degenerate. 
           </p>
-          <img src="img/poker.png" style="width:100%" alt="poker giraffe"/>
+          <p> <a href="img/poker.png" target="_blank"> Bigger giraffe. </a> </p>
+          <a href="http://youtube.com/watch?v=sIlNIVXpIns" target="_blank">
+            <img src="img/poker.png" style="width:100%" alt="poker giraffe"/>
+          </a>
           <p>
             (Not pictured: the obscene amount of rake I paid.)
           </p>
@@ -246,13 +261,17 @@
       </div> <!-- Container -->
     </section>
 
+    <!--
+    <header class="image-bg-fixed-height"> </header>
+    -->
+
     <section id="experience">
       <br />
       <div class="container">
-        <div class="page-header">
+        <div class="page-header col-lg-8 col-lg-offset-2 col-md-1 col-md-offset-1">
           <h2> <em>absolutely</em> inexperienced </h2>
         </div>
-        <div class="well">
+        <div class="well col-lg-8 col-lg-offset-2 col-md-1 col-md-offset-1">
           <p> <a href="trashbin/yiwen_resume.pdf" target="_blank"> Here is my beautiful resume. </a> </p>
           <p> Please don't laugh at it, I am a sensitive person.</p>
           <p>  <em> (Last updated December 2015.) </em> </p>
@@ -265,10 +284,10 @@
     <section id="contact">
       <br />
       <div class="container">
-        <div class="page-header">
+        <div class="page-header col-lg-8 col-lg-offset-2 col-md-1 col-md-offset-1">
           <h2><em>totally</em> unreachable</h2>
         </div>
-        <div class="well" align="center">
+        <div class="well col-lg-8 col-lg-offset-2 col-md-1 col-md-offset-1" align="center">
           <p>
             <a href="mailto:songzgy@gmail.com" target="_blank" style="text-decoration:none">
               <font color="#d62d20">
@@ -332,6 +351,10 @@
           Photo by <a href="http://github.com/alexkang" target="_blank">Alex Kang</a>.
           Majority of coding work done by <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>.
         </p>
+        <p>
+          Special thanks to <a href="http://tholman.com/elevator.js/" target="_blank"> Elevator.js </a>
+          for this great button below.
+        </p>
       </div>
       <br />
       <br />
@@ -340,10 +363,34 @@
       <br />
       <br />
       <br />
+      <div class="elevator">
+        <a>
+          <font color="#A63F00">
+            <span class="icon-stack icon-2x">
+              <i class="icon-circle icon-stack-base"></i>
+              <i class="icon-home icon-light"></i>
+            </span>
+          </font>
+        </a>
+      </div>
       <br />
       <br />
       <br />
     </section>
+
+
+
+    <!-- Elevator.js -->
+    <script src="js/elevator.min.js"></script>
+    <script>
+        // Simple elevator usage.
+        var elementButton = document.querySelector('.elevator');
+        var elevator = new Elevator({
+            element: elementButton,
+            mainAudio: './music/elevator.mp3', // Music from http://www.bensound.com/
+            endAudio:  './music/ding.mp3'
+        });
+    </script>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
