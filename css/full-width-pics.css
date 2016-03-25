@@ -56,6 +56,10 @@ body {
   cursor: pointer;
   margin: auto;
 }
+
+.elevator-text {
+  cursor: pointer;
+}
 /*
 section {
     padding: 75px 0;

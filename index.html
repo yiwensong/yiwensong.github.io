@@ -352,7 +352,7 @@
       <div align="center">
         <p> Material on this page belongs to Yiwen Song, but please feel free to steal this website for your own use. </p>
         <p>
-          Design and Englishing by <a class="page-scroll" href="#page-top">Yiwen Song</a>.
+          Design and Englishing by <a class="elevator-text">Yiwen Song</a>.
           Photo by <a href="http://github.com/alexkang" target="_blank">Alex Kang</a>.
           Majority of coding work done by <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>.
         </p>
@@ -392,6 +392,15 @@
 
     <!-- Elevator.js -->
     <script src="js/elevator.min.js"></script>
+    <script>
+        // Simple elevator usage.
+        var elementButton = document.querySelector('.elevator-text');
+        var elevator = new Elevator({
+            element: elementButton,
+            mainAudio: './music/elevator.mp3', // Music from http://www.bensound.com/
+            endAudio:  './music/ding.mp3'
+        });
+    </script>
     <script>
         // Simple elevator usage.
         var elementButton = document.querySelector('.elevator');
