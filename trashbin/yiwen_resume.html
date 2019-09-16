@@ -1,4 +1,7 @@
-<style>body{font-size:smaller;width:80%;margin-left:10%;font-family:"Helvetica Neue", Arial, sanserif;}h1{font-size:5em;}h2{}h3{}ul{}li{line-height:1.3em;}p{line-height:1.3em;}hr{}</style><h1>yiwen song</h1>
+<style>body{font-size:smaller;font-family:"Helvetica Neue", Arial, sanserif;}h1{font-size:5em;margin-top:0px;margin-bottom:5px;}h2{margin-top:2px;margin-bottom:0px;}h3{margin-top:2px;margin-bottom:0px;}ul{margin-top:0px;margin-bottom:0px;}li{line-height:1.1em;}p{margin-top:0px;margin-bottom:0px;line-height:1.1em;}hr{margin-top:3px;margin-bottom:3px;}</style><h1>yiwen song</h1>
+<p><a href="https://travis-ci.org/yiwensong/resume"><img alt="Build Status" src="https://travis-ci.org/yiwensong/resume.svg?branch=master" /></a>
+<a href="https://coveralls.io/github/yiwensong/resume?branch=master"><img alt="Coverage Status" src="https://coveralls.io/repos/github/yiwensong/resume/badge.svg?branch=master" /></a>
+<a href="https://badge.fury.io/py/md-resume"><img alt="PyPI version" src="https://badge.fury.io/py/md-resume.svg" /></a></p>
 <p><a href="http://yiwensong.com">Personal Site</a> |
 <a href="mailto:songzgy@gmail.com">Email</a></p>
 <hr />
@@ -8,10 +11,17 @@
 Major GPA: 3.739  </p>
 <hr />
 <h2>Work Experience</h2>
-<h3>Release Engineering at Yelp (Nov 2017 - Present)</h3>
+<h3>Deploy Team at Stripe (Apr 2019 - Present)</h3>
 <p><em>San Francisco, CA</em></p>
 <ul>
-<li>Worked on Jenkins continuous deployment and integration of Yelp services.</li>
+<li>Lead the unattended deployments project for safely automating service deployments.</li>
+<li>Improved canarying and added automated reliability features by integrating with our health evaluation service.</li>
+<li>Designed improvments to the deployment web frontend to be more clear and user-friendly.</li>
+</ul>
+<h3>Release Engineering at Yelp (Nov 2017 - Apr 2019)</h3>
+<p><em>San Francisco, CA</em></p>
+<ul>
+<li>Worked on an internal frontend service that tracks and displays tech debt and developer prductivity.</li>
 <li>Designed and implemented API for determining responsibility and ownership of code, databases, and other resources.</li>
 <li>Improved Git management tools and code review infrastructure to be more resilient to catastrophic failures.</li>
 </ul>
@@ -23,20 +33,13 @@ Major GPA: 3.739  </p>
 <li>Developed a Python package for quickly scripting models and risk calculation on live market data.</li>
 </ul>
 <h3>Trading Intern at Old Mission Capital (Jun 2015 - Aug 2015)</h3>
-<p><em>Chicago, IL</em></p>
-<ul>
-<li>Studied the effect of US high frequency trading on international markets.</li>
-<li>Used Python (Scikit-Learn, Matplotlib) to analyze data and visualize stastical models.</li>
-<li>Wrote research reports to communicate studies to traders whose products were impacted by the studies.</li>
-</ul>
 <hr />
 <h2>Projects</h2>
 <h3><a href="https://github.com/yiwensong/lzss">GPU Compression</a></h3>
 <ul>
-<li>Parallelized implementation of LZSS compression for the GPU.</li>
+<li>Parallelized implementation of LZSS compression for the GPU with CUDA.</li>
 <li>The goal of the project was to test feasibility of using message compression in HPC applications.</li>
 <li>Result: your network needs to be <em>really</em> bad for this to be worth anything.</li>
-<li>Implemented in CUDA and deployed on AWS.</li>
 </ul>
 <h3><a href="https://github.com/yiwensong/imgcompress">ImgCompress</a></h3>
 <ul>
@@ -48,8 +51,6 @@ Major GPA: 3.739  </p>
 <h3><a href="https://github.com/yiwensong/huplo">Poker AI</a></h3>
 <ul>
 <li>Heads Up Pot-Limit Omaha (HUPLO) AI that uses Monte Carlo search trees and bad machine learning.</li>
-<li>Preflop play uses machine learning on hole cards features like connectedness, suitedness and value.</li>
-<li>Postflop play uses Monte Carlo Search Trees.</li>
 <li>💩 at poker.</li>
 <li>Passable at Tic-Tac-Toe.</li>
 </ul>
@@ -62,12 +63,24 @@ Major GPA: 3.739  </p>
 <h3><a href="https://github.com/yiwensong/yiwen.date">yiwen.date</a></h3>
 <ul>
 <li>Another personal site, but maybe a little more personal.</li>
-<li>Frontend written in react, backend written with Flask.</li>
+<li>Frontend written in React, backend written with Flask.</li>
 <li><a href="https://yiwen.date">Please do not attempt to date potential future employees.</a></li>
 </ul>
 <hr />
-<h2>Interests, Skills and Intangibles</h2>
-<p><strong>Hobbies</strong>: Board Games, Poker, Basketball, Reading the Manual<br />
-<strong>Language</strong>: Python, Javascript, Psuedocode, fish, Mandarin<br />
-<strong>Skills</strong>: INDEX-MATCH Fiend, Vim Connoiseur, Nash Equilibrium Hobbyist, "sudo rm -rf /" Frequent User<br />
-<strong>Intangibles</strong>: Enjoys friendly competition, clicks buttons really fast  </p>
+<h2>SEO</h2>
+<p><strong>Interests</strong>: Change management, system reliability, developer productivity tooling<br />
+<strong>Languages</strong>: Python, React (which is Javascript, I guess), Golang, Psuedocode, fish, Mandarin<br />
+<strong>Skills</strong>: INDEX-MATCH fiend, Vim Connoiseur, Nash Equilibrium Hobbyist, "sudo rm -rf /" Frequent User<br />
+<strong>Intangibles</strong>: Clicks buttons really fast, reads the manual<br />
+<div style="font-size:0.2em">
+<strong>Literally just SEO terms that vaguely relate to my work</strong>:
+Cloud computing, devops, dev-ops, design, software engineering,
+software developer, infrastructure, SRE, reliability engineering, docker,
+containers, kuberenetes, AWS, amazon web services, s3, EC2,
+google cloud platform, gcp, puppet, terraform, services, continous deployment,
+continuous integration, CI, CD, CI/CD, Jenkins, build, test execution,
+test infrastructure, developer tooling, tox, make, bazel, UI, UX,
+web developer, web development, web dev, SaaS, PaaS, backend,
+development to production, DNS, load balancer, Travis, Chef, postgres, mysql,
+mongodb, database management, migrations
+</div></p>
